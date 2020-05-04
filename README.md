@@ -8,7 +8,7 @@ Dzięki wykorzystaniu podejścia BDD określone scenariusze są wykonywane autom
 
 ## Pobranie programu
 W folderze z Twoimi projektami w terminalu (Intellij) bądź konsoli wykonaj
->`git clone https://github.com/krzysztofmichalaksda/`
+>`git clone https://github.com/krzysztofmichalaksda/WebDriverBasic.git`
 
 Lub
 >Kliknij zielony przycisk powyżej Clon or Download i wybierz Donwload ZIP - wtedy na Twój komputer zostanie pobrana paczka *.zip z kodem programu, który należy wypakować i otowrzyć w Intellij.

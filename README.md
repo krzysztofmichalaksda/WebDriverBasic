@@ -15,15 +15,15 @@ Lub
 
 ## Uruchomienie testów
 ### Z poziomu Intellij - Cucumber
-1. Otwórz do podglądu wybrany plik `*.feature` z folderu `src/test/feature/`
-2. Kliknij prawym przyciskiem na wybranym
-3. Z listy rozwijanej wybierz "Run 'Scenario: ..."
+1. Otwórz do podglądu wybrany plik `*.feature` z folderu `src/test/feature/`.
+2. Kliknij prawym przyciskiem na wybranym `Scenario: ... ` lub całym `Feature: ... `.
+3. Z listy rozwijanej wybierz "Run 'Scenario: ...".
 > Na dole ekranu powinno otworzyć się okno 4: Run wraz z podglądem wykonywania się testu.
 ### Z poziomu Intellij - TestRunner
-1. `TestRunner.java` zlokalizowany jest folderze `src/java/`
-2. Z głównego manu wybierz `Build > Build Project`
-3. Następnie ponownie z głównego menu wybierz `Run > Run...` i wybrać z list `TestRunner`
+1. `TestRunner.java` zlokalizowany jest folderze `src/java/`.
+2. Z głównego manu wybierz `Build > Build Project`.
+3. Następnie ponownie z głównego menu wybierz `Run > Run...` i wybrać z list `TestRunner`.
 ### Z poziomu konsoli/terminala - Maven Test
-1. Otwórz konsolę w lokalizacji naszego projektu
-2. Wykonaj `mvn test`
+1. Otwórz konsolę w lokalizacji naszego projektu.
+2. Wykonaj `mvn test`.
 > Ważne, aby mvn był rozpoznawany w waszym systemie. Jeśli nie jest, należy dodać ścieżkę `{TwojaLokalizacjaMaven}\maven\lib\maven3\bin` do PATH (w analogiczny sposób jak to wykonaliście dla Java).

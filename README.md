@@ -23,7 +23,7 @@ Lub
 1. `TestRunner.java` zlokalizowany jest folderze `src/java/`
 2. Z głównego manu wybierz `Build > Build Project`
 3. Następnie ponownie z głównego menu wybierz `Run > Run...` i wybrać z list `TestRunner`
-### Z poziomu konsoli - Maven Test
+### Z poziomu konsoli/terminala - Maven Test
 1. Otwórz konsolę w lokalizacji naszego projektu
 2. Wykonaj `mvn test`
 > Ważne, aby mvn był rozpoznawany w waszym systemie. Jeśli nie jest, należy dodać ścieżkę `{TwojaLokalizacjaMaven}\maven\lib\maven3\bin` do PATH (w analogiczny sposób jak to wykonaliście dla Java).

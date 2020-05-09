@@ -10,13 +10,13 @@ public class Hooks {
     public void setUp()
     {
         Chrome.start();
-        System.out.println("Set Up environment");
+        System.out.println("Set up environment");
     }
 
     @After
     public void tearDown()
     {
         Chrome.end();
-        System.out.println("Tear Down environment");
+        System.out.println("Tear down environment");
     }
 }

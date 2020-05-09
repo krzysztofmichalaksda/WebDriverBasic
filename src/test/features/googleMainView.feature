@@ -7,3 +7,5 @@ Feature: Displaying crucial elements on google.com main page
   Scenario: Check google logo on main page
     When a user opens "https://google.com" page
     Then the user should see Google logo
+      And the user should see search input
+      And the user should see search button
